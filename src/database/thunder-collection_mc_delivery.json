@@ -1,0 +1,122 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mc_delivery",
+    "dateExported": "2023-06-25T16:25:44.076Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "92f76fc0-6af9-4311-8846-24ccc65b3f05",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "createUser",
+            "url": "localhost:3001/createUser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-25T13:47:39.706Z",
+            "modified": "2023-06-25T15:05:21.914Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"susu1@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "240daa94-3a6d-4370-b965-f9cca40e468d",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "loginUser",
+            "url": "localhost:3001/login",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-06-25T15:08:09.114Z",
+            "modified": "2023-06-25T15:16:03.995Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"susu@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c9adeb8a-a96e-4f5a-8687-36f7c976a4eb",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "addAddress",
+            "url": "localhost:3001/createUser",
+            "method": "POST",
+            "sortNum": 17500,
+            "created": "2023-06-25T16:00:19.116Z",
+            "modified": "2023-06-25T16:00:29.387Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"susu1@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf06d737-c13e-4582-be65-2d5f4248cdce",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "getRegularCategory",
+            "url": "localhost:3001/getAllCategories/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-25T13:47:39.707Z",
+            "modified": "2023-06-25T15:28:23.332Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cfff6630-c329-44b9-9fb3-223e2ade33c9",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "getBreakfastCategory",
+            "url": "localhost:3001/getAllCategories/0",
+            "method": "GET",
+            "sortNum": 21250,
+            "created": "2023-06-25T15:31:07.791Z",
+            "modified": "2023-06-25T15:31:55.510Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a50c94e8-06ba-4d7f-bacb-73978e27ded3",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "getItemsOnCategory",
+            "url": "localhost:3001/getItems/15",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2023-06-25T13:47:39.708Z",
+            "modified": "2023-06-25T15:35:50.880Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ee91c81e-ed38-4010-8e35-62371ed71162",
+            "colId": "2fecde9e-67a0-4554-b9ae-f435f8aee86c",
+            "containerId": "",
+            "name": "checkCoupon",
+            "url": "localhost:3001/checkCoupon/8ECQMA=",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-06-25T13:47:39.709Z",
+            "modified": "2023-06-25T15:57:08.530Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
